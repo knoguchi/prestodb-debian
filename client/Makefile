@@ -1,6 +1,6 @@
 # Presto CLI
 SHELL := /bin/bash 
-version = 0.143
+version = $(client_version)
 name = presto-cli
 full_name = $(name)-$(version)
 download_url = "http://repo1.maven.org/maven2/com/facebook/presto/presto-cli/$(version)/$(full_name)-executable.jar"

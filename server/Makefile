@@ -1,6 +1,6 @@
 # Presto Server
-SHELL := /bin/bash 
-version = 0.54
+SHELL := /bin/bash
+version = $(server_version)
 name = presto-server
 full_name = $(name)-$(version)
 download_url = "http://repo1.maven.org/maven2/com/facebook/presto/$(name)/$(version)/$(full_name).tar.gz"
